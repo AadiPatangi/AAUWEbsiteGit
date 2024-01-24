@@ -1,136 +1,41 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AAU</title>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
-
-    <script src = "./js.js"defer></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-
-    <link rel="stylesheet" href="style.css">
-
-</head>
-<body>
-
-
-<header class="row-container">
-    <a href="#"class="logo"><img src="imgs/aauparentlogo.jpg" alt=""width=200 height="200"></a>
-    <div class="toggleMenu"onclick="toggleMenu();"></div>
-    <nav class ="navigation row">
-        <ul class=""row>
-            <li><a href="#">Home</a></li>
-            <li><a href="#about">About us</a></li>
-            <li><a href="#project">Projects</a></li>
-            <li><a href="#service">Services</a></li>
-            <li><a href="#contact">Contact us</a></li>
-
-
-
-
-
-        </ul>
-
-
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">SEND</div>
+      <div class="nav-items">
+        <a href="/">Home</a> <a href="/">About</a> <a href="/">Contact</a>
+      </div>
     </nav>
-</header>
-
-<section class="hero swiper mySwiper">
-    <div class="swiper-wrapper">
-        <div class="swiper-slide">
-            <div class="container row">
-                <h1>Building things is our mission</h1>
-                <div class="row">
-                    <div>
-                        <h1>Feature Projects</h1>
-                        <p>The national University of Architecture</p>
-                    </div>
-                </div>
-            </div>
+    <section class="hero">
+      <div class="hero-container">
+        <div class="column-left">
+          <h1 style="font-size:90px;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">AAU</h1>
+          <p>
+           Angels Among Us
+          </p>
+          <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pin" viewBox="0 0 16 16">
+            <path d="M4.146.146A.5.5 0 0 1 4.5 0h7a.5.5 0 0 1 .5.5c0 .68-.342 1.174-.646 1.479-.126.125-.25.224-.354.298v4.431l.078.048c.203.127.476.314.751.555C12.36 7.775 13 8.527 13 9.5a.5.5 0 0 1-.5.5h-4v4.5c0 .276-.224 1.5-.5 1.5s-.5-1.224-.5-1.5V10h-4a.5.5 0 0 1-.5-.5c0-.973.64-1.725 1.17-2.189A6 6 0 0 1 5 6.708V2.277a3 3 0 0 1-.354-.298C4.342 1.674 4 1.179 4 .5a.5.5 0 0 1 .146-.354m1.58 1.408-.002-.001zm-.002-.001.002.001A.5.5 0 0 1 6 2v5a.5.5 0 0 1-.276.447h-.002l-.012.007-.054.03a5 5 0 0 0-.827.58c-.318.278-.585.596-.725.936h7.792c-.14-.34-.407-.658-.725-.936a5 5 0 0 0-.881-.61l-.012-.006h-.002A.5.5 0 0 1 10 7V2a.5.5 0 0 1 .295-.458 1.8 1.8 0 0 0 .351-.271c.08-.08.155-.17.214-.271H5.14q.091.15.214.271a1.8 1.8 0 0 0 .37.282"/>
+          </svg> Lebanon Trail High Schoool, Frico, Texas</p>
+          <button onclick="location.href='aboutus.html'" type="button"> About Us</button>
         </div>
-        <div class="swiper-slide">
-            <div class="container row">
-                <h1>Building things is our mission</h1>
-                <div class="row">
-                    <div>
-                        <h1>Feature Projects</h1>
-                        <p>The national University of Architecture</p>
-                    </div>
-                </div>
-            </div>
+        <div class="column-right">
+          <img
+            src="imgs/aau parent logo-3.png"
+            alt="illustration "
+            class="hero-image"
+            
+          />
         </div>
-        <div class="swiper-slide">
-            <div class="container row">
-                <h1>Building things is our mission</h1>
-                <div class="row">
-                    <div>
-                        <h1>Feature Projects</h1>
-                        <p>The national University of Architecture</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-    <div class="hero-arrow row">
-        <div class = "swiper-button-prev">
-            <img src="imgs/left-long-solid.svg"alt="">
-            Back
-        </div>
-
-        <div class = "swiper-button-next">
-            Next 
-            <img src="imgs/right-long-solid.svg"alt="">
-        </div>
-</div>
-
-</section>
-
-
-<section class="reputation container">
-    <h2>Our reputation</h2>
-    <div class="reputation-cards column">
-        <div class="r-card">
-            <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" fill="currentColor" class="bi bi-tree-fill" viewBox="0 0 16 16">
-                <path d="M8.416.223a.5.5 0 0 0-.832 0l-3 4.5A.5.5 0 0 0 5 5.5h.098L3.076 8.735A.5.5 0 0 0 3.5 9.5h.191l-1.638 3.276a.5.5 0 0 0 .447.724H7V16h2v-2.5h4.5a.5.5 0 0 0 .447-.724L12.31 9.5h.191a.5.5 0 0 0 .424-.765L10.902 5.5H11a.5.5 0 0 0 .416-.777l-3-4.5z"/>
-              </svg>
-              <h3>Best services</h3>
-              <p>fghfghjfghfgh fghfgh fghfgh fghfghfgh</p>
-        </div>
-        <div class="r-card">
-            <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" fill="currentColor" class="bi bi-tree-fill" viewBox="0 0 16 16">
-                <path d="M8.416.223a.5.5 0 0 0-.832 0l-3 4.5A.5.5 0 0 0 5 5.5h.098L3.076 8.735A.5.5 0 0 0 3.5 9.5h.191l-1.638 3.276a.5.5 0 0 0 .447.724H7V16h2v-2.5h4.5a.5.5 0 0 0 .447-.724L12.31 9.5h.191a.5.5 0 0 0 .424-.765L10.902 5.5H11a.5.5 0 0 0 .416-.777l-3-4.5z"/>
-              </svg>
-              <h3>Best Teams</h3>
-              <p>fghfghjfghfgh fghfgh fghfgh fghfghfgh</p>
-        </div>
-        <div class="r-card">
-            <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" fill="currentColor" class="bi bi-tree-fill" viewBox="0 0 16 16">
-                <path d="M8.416.223a.5.5 0 0 0-.832 0l-3 4.5A.5.5 0 0 0 5 5.5h.098L3.076 8.735A.5.5 0 0 0 3.5 9.5h.191l-1.638 3.276a.5.5 0 0 0 .447.724H7V16h2v-2.5h4.5a.5.5 0 0 0 .447-.724L12.31 9.5h.191a.5.5 0 0 0 .424-.765L10.902 5.5H11a.5.5 0 0 0 .416-.777l-3-4.5z"/>
-              </svg>
-              <h3>Best Design</h3>
-              <p>fghfghjfghfgh fghfgh fghfgh fghfghfgh</p>
-        </div>
-    </div>
-
-</section>
-
-
-<section class="about column container" id="about">
-    <div class="about-img"><img src="imgs/right-long-solid.svg"alt=""></div>
-    <div class="about-content">
-        <h2>About us</h2>
-        <p>For more than 30 years we have been delivering world class construction and we've built many lasting relaationships</p>
-        <p>We've matured into an industry leader and we'ver helped many.</p>
-        <a href="#" class ="page-btn">More on our history</a>
-    </div>
-</section>
-
-<!-- stopped video at 10.26-->>
-    
-</body>
+      </div>
+    </section>
+  </body>
 </html>
